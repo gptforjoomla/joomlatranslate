@@ -1,0 +1,18 @@
+git:
+  filters:
+    - filter_type: dynamic
+      file_format: INI
+      source_language: en-GB
+      source_files_expression: administrator/language/en-GB/<file>.ini
+      translation_files_expression: 'administrator/language/<lang>/<file>.ini'
+
+    - filter_type: dynamic
+      file_format: INI
+      source_language: en-GB
+      source_files_expression: language/en-GB/<file>.ini
+      translation_files_expression: 'language/<lang>/<file>.ini'
+
+  settings:
+    language_mapping:
+      fa_IR: fa-IR
+      en_GB: en-GB
