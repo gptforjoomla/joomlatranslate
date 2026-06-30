@@ -1,0 +1,14 @@
+version: 1
+
+source_language: en-GB
+
+sources:
+
+  - source: administrator/language/en-GB
+    translations: administrator/language/<lang>
+
+  - source: language/en-GB
+    translations: language/<lang>
+
+extensions:
+  - "*.ini"
